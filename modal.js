@@ -6,7 +6,10 @@ document.getElementById("loginBtn").addEventListener("click", () => {
     isLocked = false; 
     document.getElementById("authModal").style.display = "none"; // unlock
     animate(); // start animation
+    const audio = document.getElementById("bgAudio");
+    audio.play();
   } else {
     alert("Ga gitu kata kuncinya kocak");
   }
+
 });
