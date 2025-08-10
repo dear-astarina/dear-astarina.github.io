@@ -93,7 +93,7 @@ body {
   top: clamp(100px, 20vw, 130px);
   left: 40px;
   right: 40px;
-  text-align: justify;
+  text-align: left;
   opacity: 0.93;
   line-height: 1.3;
   font-family: "Delius", serif;
@@ -261,3 +261,4 @@ body {
   --size: 2px;
   transition-duration: 0.7s;
 }
+
