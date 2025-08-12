@@ -1,4 +1,4 @@
-const ACCESS_PASSWORD = "u-pride";
+const ACCESS_PASSWORD = "u-prid";
 
 document.getElementById("loginBtn").addEventListener("click", () => {
   const input = document.getElementById("accessCode").value;
@@ -9,7 +9,8 @@ document.getElementById("loginBtn").addEventListener("click", () => {
     const audio = document.getElementById("bgAudio");
     audio.play();
   } else {
-    alert("Ga gitu kata kuncinya kocak");
+    alert("Maaf bukan kamu orangnya");
   }
 
 });
+
